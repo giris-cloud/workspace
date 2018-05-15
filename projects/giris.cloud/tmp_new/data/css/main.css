@@ -1,0 +1,289 @@
+* {
+    margin:0px;
+    padding:0px;
+    font-family: Verdana,Geneva,sans-serif; 
+}
+
+html, document, body {
+    width:100%;
+    height:100%;
+}
+
+div#background {
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+    background:url('//giris.cloud/tmp_new/data/img/background.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    z-index: -10;
+}
+
+/*
+* Allgemeine Styles
+*/
+
+.fleft {
+    float:left;
+}
+
+.fright {
+    float:right;
+}
+
+.fleft_50 {
+    float:left;
+    width:49%;
+}
+
+.fright_50 {
+    float:right;
+    width:49%;
+}
+
+.text_left {
+    text-align: left;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.text_right {
+    text-align: right;
+}
+
+.margin_0 {
+    margin:0 auto;
+}
+
+.clear {
+    clear:both;
+}
+
+.content_inner {
+    min-width: 80%;
+    max-width: 90%;
+    margin:0 auto;
+}
+
+.shadow {
+    -webkit-box-shadow: 0px 0px 10px -2px rgba(0,0,0,0.20);
+    -moz-box-shadow: 0px 0px 10px -2px rgba(0,0,0,0.20);
+    box-shadow: 0px 0px 10px -2px rgba(0,0,0,0.20);
+}
+
+.shadow_2 {
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(255,255,255,1);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(255,255,255,1);
+    box-shadow: 0px 0px 15px 0px rgba(255,255,255,1);
+}
+
+.black_background {
+    background-color:#999999;
+}
+
+.grey_background {
+    background-color:#f5f5f5;
+}
+
+.white_background {
+    background-color:#ffffff;
+}
+
+
+/*
+* Header
+*/ 
+
+div#header {
+    width:100%;
+    height:46.5px;
+    background-color:rgba(0, 0, 0, 0.8);
+    z-index:999;
+}
+
+div#header img {
+    margin-top:14px;
+    width:212px;
+    height:22.5px;
+}
+
+@media (max-width: 480px) {
+    div#header img {
+        margin-top:14px;
+        width:25px;
+        height:22.5px;
+    }
+}
+
+div#header_bar {
+    color:#fff;
+    font-size:15px;
+    margin-top:12px;
+}
+
+div#header_bar #login {
+    display:none;
+}
+
+div#header div#mobile_bar {
+}
+
+div#header div#mobile_bar img {
+    width:25px;
+    height:15px;
+    margin-top:14px;
+}
+
+div#mobile_nav {
+    display:none;
+    position:fixed;
+    top:46.5px;
+    width:100%;
+    height:calc(100% - 42.5px);
+    z-index:999;
+    background-color:rgba(0,0,0,0.8);
+}
+
+div#mobile_nav ul {
+}
+
+div#mobile_nav ul li {
+    list-style-type: square;
+    width:100%;
+    text-align:left;
+    border-bottom:1px solid #fff;
+    color:#fff;
+    padding-left: 70px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+div#mobile_nav ul li a {
+    color:#fff;
+    text-decoration: none;
+}
+
+div#mobile_nav ul li a:hover {
+    color:#2bb8cc;
+    text-decoration: none;
+}
+
+
+/*
+* CONTENT
+*/
+
+div#content {
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+div#content div#content_header {
+    max-height:250px;
+    margin-bottom: 30px;
+}
+
+div#content div#content_header img {
+    max-height: 250px;
+    max-width: 100%;
+}
+
+div#content div.content_full {
+    width:100%;
+    margin:0 auto;
+}
+
+div#content div.content_inner {
+    min-width: 80%;
+    max-width: 90%;
+    margin:0 auto;
+}
+
+div#projects {
+    width:100%;
+    overflow-x:hidden;
+    overflow-y:hidden;
+    min-height:328px;
+}
+
+div#projects img {
+    margin-top:50px;
+    margin-bottom:50px;
+    margin-left:50px;
+    margin-right:50px;
+}
+
+div#projects .fright {
+    width:calc(75% - 40px);
+    margin-top:100px;
+    margin-bottom:100px;
+    margin-left:20px;
+    margin-right:20px;
+}
+
+
+/*
+** FOOTER
+*/
+
+div#footer {
+    min-width: 80%;
+    max-width: 90%;
+    margin:0 auto;
+    background-color:rgba(0,0,0,0.5);
+    color:#fff;
+    border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    margin-bottom: 15px;
+}
+
+div#footer .inner {
+    padding-bottom:25px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+div#footer a {
+    color:#fff;
+    text-decoration: none;
+}
+
+div#footer a:hover {
+    color:#2bb8cc;
+    text-decoration: none;
+}
+
+div#footer_changer {
+    z-index:20;
+    padding:25px;
+    text-align: center;
+}
+
+div#footer_changer .footer_changer_text {
+    display:none;
+}
+
+div#footer .inner .fleft_50 {
+    text-align: left;
+}
+    
+div#footer .inner .fright_50 {
+    text-align: right;
+}
+
+
+@media (max-width: 937px) {
+    div#footer .inner .fleft_50 {
+        text-align: center;
+    }
+    
+    div#footer .inner .fright_50 {
+        text-align: center;
+    }
+}

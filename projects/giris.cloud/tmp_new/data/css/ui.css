@@ -1,0 +1,197 @@
+/*
+** HEADER UI
+*/
+
+div#header_bar input,
+div#header_bar button {
+    background:rgba(255,255,255,0.6);
+    border:0px;
+    color:#fff;
+    border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    padding-left:25px;
+    padding-right:25px;
+    padding-top:5px;
+    padding-bottom:5px;
+    text-align:center;
+}
+
+button.mark {
+    background-color:#2bb8cc;
+    opacity: 0.6;
+    border:0px;
+    color:#fff;
+    border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    padding-left:25px;
+    padding-right:25px;
+    padding-top:5px;
+    padding-bottom:5px;
+    text-align:center;
+}
+
+/*
+** CONTENT UI
+*/
+
+.padding {
+    padding:50px;
+}
+
+div.box_border_box {
+    border:1px solid #000;
+    text-align: center;
+    padding:25px;
+    margin:25px;
+    width:calc(100% - 100px);
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+}
+
+div.box {
+    padding:25px;
+    width:calc(100% - 50px);
+    background-color:#fff;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.25);
+    border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    text-align:center;
+    color:#666666;
+    margin-top:15px;
+    margin-bottom: 50px;
+}
+
+div.box img {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+/*
+** h tags
+*/
+
+h1, h2, h3 {
+    font-weight: normal;
+}
+
+h1.headline, h2.headline, h3.headline {
+    color:#3265a3;
+}
+
+h1 {
+    
+}
+
+h2 {
+    
+}
+
+h3 {
+    
+}
+
+/*
+** FORMS, INPUTS, TEXTAREAS, SELECTS
+*/
+
+#content input {
+    width: calc(100% - 100px);
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top:12.5px;
+    margin-bottom: 12.5px;
+    background:rgba(0,0,0,0.6);
+    border:0px;
+    color:#fff;
+    border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    padding-left:25px;
+    padding-right:25px;
+    padding-top:5px;
+    padding-bottom:5px;
+    text-align:center;
+}
+
+input.mark {
+    width: calc(100% - 50px) !important;
+    background:url('//giris.cloud/tmp_new/data/img/background.png') !important;
+    border:0px;
+    color:#fff;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color:#fff;
+    filter: alpha(opacity=80);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    -moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    opacity: 0.8; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color:#fff;
+    filter: alpha(opacity=80);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    -moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    opacity: 0.8; /* Firefox */
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color:#fff;
+    filter: alpha(opacity=80);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    -moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    opacity: 0.8; /* Firefox */
+}
+
+.padded td {
+    padding-bottom: 25px;
+    padding-top:25px;
+    border-bottom: 1px dotted #ccc;
+}
+
+/*
+** BUTTONS
+*/
+
+
+/*
+** SET CURSOR
+*/ 
+
+a, button {
+    cursor: pointer;
+}
+
+a {
+    color:#0012ff;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#0012ff;
+    text-decoration: none;
+}
+
+div#loader {
+    width:100%;
+    position:fixed;
+    top:0px;
+    left:0px;
+    height:4px;
+    background-color:#2bb8cc;
+    display:none;
+}
+
+.padding_top {
+    padding-top: 25px;
+}

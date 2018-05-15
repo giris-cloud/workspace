@@ -1,0 +1,116 @@
+/*
+** 
+**   MOBILE
+**
+*/
+
+@media (max-width: 480px) {
+    .mobile_hidden {
+        display:none;
+    }
+    
+    .mobile_show {
+        display:block;
+    }
+    
+    .desktop_hidden {
+        display:block;
+    }
+    
+    .desktop_show {
+        display:none;
+    }
+    
+    .tablet_show {
+        display:block;
+    }
+    
+    .tablet_hidden {
+        display:none;
+    }
+    
+    .fleft_50 {
+       float:left;
+       width:100%;
+    }
+    
+    .fright_50 {
+       float:left;
+       width:100%;
+    }
+}
+
+
+/*
+** 
+**   TABLET
+**
+*/
+
+@media (min-width:481px) and (max-width: 937px) {
+    .tablet_hidden {
+        display:none;
+    }
+    
+    .tablet_show {
+        display:block;
+    }
+    
+    .mobile_show {
+        display:none;
+    }
+    
+    .mobile_hidden {
+        display:block;
+    }
+    
+    .desktop_hidden {
+        display:block;
+    }
+    
+    .desktop_show {
+        display:none;
+    }
+    
+    .fleft_50 {
+       float:left;
+       width:100%;
+    }
+    
+    .fright_50 {
+       float:left;
+       width:100%;
+    }
+}
+
+/*
+** 
+**   DESKTOP
+**
+*/
+
+@media (min-width: 938px) {
+    .desktop_hidden {
+        display:none;
+    }
+    
+    .desktop_show {
+        display:block;
+    }
+    
+    .tablet_hidden {
+        display:block;
+    }
+    
+    .tablet_show {
+        display:none;
+    }
+    
+    .mobile_show {
+        display:none;
+    }
+    
+    .mobile_hidden {
+        display:block;
+    }
+}
